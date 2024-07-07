@@ -11,11 +11,11 @@ public class RewardValue {
     }
     
 
-    private static int ToMiles(double cashValue) {
+    public  int ToMiles(double cashValue) {
         return (int) (cashValue / RATE);
     }
 
-    private static double ToCash(int milesValue) {
+    public double ToCash(int milesValue) {
         return milesValue * RATE;
     }
 
